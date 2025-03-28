@@ -10,6 +10,9 @@ pluginManagement {
 include ':launcher', ':unityLibrary'
 **INCLUDES**
 
+include ':android-unity-wrapper'
+project(':android-unity-wrapper').projectDir = new File("$rootDir/../Leanplum-Android-SDK-Unity/android-unity-wrapper")
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
