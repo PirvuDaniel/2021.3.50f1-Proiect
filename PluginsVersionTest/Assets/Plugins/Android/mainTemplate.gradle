@@ -1,8 +1,14 @@
 apply plugin: 'com.android.library'
 **APPLY_PLUGINS**
 
+def LEANPLUM_SDK_VERSION = "7.4.1"
+def CT_SDK_VERSION = "6.1.1"
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.leanplum:leanplum-core:${LEANPLUM_SDK_VERSION}"
+    implementation "com.clevertap.android:clevertap-android-sdk:${CT_SDK_VERSION}"
+    implementation 'com.google.code.gson:gson:2.8.5'
 // Android Resolver Dependencies Start
     implementation 'androidx.recyclerview:recyclerview:1.2.1' // Assets/LevelPlay/Editor/ISMintegralAdapterDependencies.xml:15
     implementation 'com.applovin:applovin-sdk:13.1.0' // Assets/LevelPlay/Editor/ISAppLovinAdapterDependencies.xml:12

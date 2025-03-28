@@ -25,7 +25,6 @@
          <repository>https://repo.leanplum.com</repository>
        </repositories>
      </androidPackage>
-     <androidPackage spec="com.google.firebase:firebase-messaging:15.0.1" />
      -->
     
 
@@ -36,7 +35,6 @@
          <repository>https://repo.leanplum.com</repository>
        </repositories>
      </androidPackage>
-     <androidPackage spec="com.google.android.gms:play-services-location:15.0.1" />
      -->
 
    </androidPackages>
